@@ -1,10 +1,9 @@
 
-pong/Library/* 
-pong/Logs/* 
-pong/Temp/* 
-pong/.vs/* 
-pong/obj/* 
- 
-pong/.vsconfig 
-pong/*.sln 
+pong/Library/*
+pong/Logs/*
+pong/Temp/*
+pong/.vs/*
+pong/obj/*
+pong/.vsconfig
+pong/*.sln
 pong/*.csproj
