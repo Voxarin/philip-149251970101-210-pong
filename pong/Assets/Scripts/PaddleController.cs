@@ -39,33 +39,3 @@ public class PaddleController : MonoBehaviour
         rig.velocity = movement;
     }
 }
-
-/*
-//old
-public class PaddleController : MonoBehaviour
-{
-    public int speed;
-
-    private void Start()
-    {
-    }
-
-    private void Update()
-    {
-        Vector3 movement = Vector3.zero;
-
-        // get input 
-        if (Input.GetKey(KeyCode.W))
-        {
-            movement = Vector3.up * speed;
-        }
-        if (Input.GetKey(KeyCode.S))
-        {
-            movement = Vector3.down * speed;
-        }
-
-        // move object
-        transform.Translate(movement * Time.deltaTime);
-    }
-}
-*/
