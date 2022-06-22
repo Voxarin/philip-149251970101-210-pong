@@ -15,11 +15,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -59,19 +56,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 5704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -116,37 +113,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 2102}
+      Script: {instanceID: 1616}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2104}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2682}
+      Script: {instanceID: 2582}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 2686}
     - Class: 114
-      Script: {instanceID: 3106}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3178}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3110}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 4740}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 27594}
+      Script: {instanceID: 5704}
     - Class: 114
-      Script: {instanceID: 28498}
+      Script: {instanceID: 5712}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -185,19 +182,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1516}
     - Class: 114
-      Script: {instanceID: 2252}
+      Script: {instanceID: 2254}
     - Class: 114
-      Script: {instanceID: 2680}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2858}
     - Class: 114
-      Script: {instanceID: 3090}
+      Script: {instanceID: 3094}
     - Class: 114
-      Script: {instanceID: 3342}
+      Script: {instanceID: 3346}
     - Class: 114
-      Script: {instanceID: 3462}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 5702}
+      Script: {instanceID: 5704}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,6 +236,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkin
+  - hash:
+      serializedVersion: 2
+      Hash: de0d4a3d5a9412a1668e0bbb8b11cfb4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PUPaddleSizeUpController
   - hash:
       serializedVersion: 2
       Hash: 78327bd64a4db996a6dfe4c012d9f89b
@@ -347,6 +350,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: IKManager2D
+  - hash:
+      serializedVersion: 2
+      Hash: 1b0378761ac7e2c0d7490237178b01d2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PUPaddleSpeedUpController
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -661,7 +670,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 8de20f0c44e8e5df758d410351530b22
+      Hash: 228e3b40fc282efe1505d2cf646c3378
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PaddleController
@@ -751,7 +760,7 @@ ScriptsOnlyBuild:
     className: AllSceneManager
   - hash:
       serializedVersion: 2
-      Hash: 0cd98c62c8e2f7422196ca05e1208ca2
+      Hash: 092440e2ad36321aa1a97afd7778b23b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PowerUpManager
@@ -773,18 +782,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 1b0378761ac7e2c0d7490237178b01d2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PUPaddleSpeedUpController
-  - hash:
-      serializedVersion: 2
-      Hash: de0d4a3d5a9412a1668e0bbb8b11cfb4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PUPaddleSizeUpController
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
